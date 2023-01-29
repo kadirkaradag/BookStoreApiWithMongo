@@ -18,7 +18,7 @@ namespace BookStoreApiWithMongo.Controllers
 
         [HttpGet]
         public async Task<List<Book>> Get()
-        {
+        {            
             return await _booksService.GetAsync();
         }
 
